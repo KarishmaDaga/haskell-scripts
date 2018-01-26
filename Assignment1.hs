@@ -9,10 +9,10 @@ module Assignment1 where
 -- @ firstAxis, secondAxis, thirdAxis are all of type double and represent the
   -- lengths of the axes of an ellipsoid
 -- @ return: a char representing the type of ellipsoid shape:
-    -- 'S' : sphere if all of the axes are equal, 'F' : Football if two of them
-      -- are equal, 'E' : ellipsoid (not S or F)
-    -- if they are all different, 'X': if firstAxis, secondAxis, or thirdAxis
-      -- is less than or equal to 0
+    -- 'S' : sphere if all of the axes are equal
+    -- 'F' : Football if two of them are equal
+    -- 'E' : ellipsoid (not S or F) if they are all different
+    -- 'X': if firstAxis, secondAxis, or thirdAxis is less than or equal to 0
 
 shape :: Double -> Double -> Double -> Char
 shape firstAxis secondAxis thirdAxis
